@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh "docker run -d -P nginx"
+                sh "docker run -d -P sebp/elk"
             }
         }
     }
