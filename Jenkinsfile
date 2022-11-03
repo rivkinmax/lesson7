@@ -1,5 +1,5 @@
 pipeline {
-    agent Uchebnaya2
+    agent any
 
     stages {
         stage('Hello') {
