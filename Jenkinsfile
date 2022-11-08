@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'Uchebnaya2'
+        label 'Windows'
     }
 
     stages {
